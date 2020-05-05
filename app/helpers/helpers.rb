@@ -1,6 +1,5 @@
 class Helpers
   def self.current_user(session_hash) #will only be call in views
-    binding.pry
     @user = User.find_by(id: session_hash[:user_id])
   end
 
