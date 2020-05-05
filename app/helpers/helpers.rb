@@ -4,7 +4,6 @@ class Helpers
   end
 
   def self.is_logged_in?(session_hash)
-    binding.pry
     !!session_hash[:user_id] #if it contains a user_id is true and false if it does not
 
     # if self.current_user(session_hash)
