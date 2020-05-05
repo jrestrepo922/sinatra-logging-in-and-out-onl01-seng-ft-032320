@@ -1,5 +1,5 @@
 class Helpers
-  def self.current_user
+  def self.current_user #will only be call in views
 
   end
 
