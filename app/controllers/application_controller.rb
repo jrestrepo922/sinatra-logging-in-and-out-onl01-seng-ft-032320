@@ -27,6 +27,7 @@ class ApplicationController < Sinatra::Base
 
   get '/logout' do
     binding.pry
+    session.clear
   end
 
 
